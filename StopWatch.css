@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: black;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+  }
+
+  .timer-display {
+    font-size: 50px;
+    background: linear-gradient(135deg, #6f05e2, #00c6fb);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #6f05e2, #00c6fb);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+  button:hover {
+      transform: translateY(-5px); /* Move the button up by 5 pixels on hover */
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  
+  
